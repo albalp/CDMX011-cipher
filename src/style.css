@@ -1,0 +1,78 @@
+*{
+    color: black;
+    font-family: fantasy;  
+    text-align: center;
+}
+body{
+    background-image: url(https://images3.alphacoders.com/104/thumb-1920-1046460.jpg) ;
+    background-size: 100%;
+}
+.offset{
+    WIDTH: 150px; HEIGHT: 25px;
+}
+.botonesRaza{
+    font-size: 2rem;
+}
+h1{
+    color: goldenrod;
+    font-family: fantasy;
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.4rem;
+}
+h1:hover{
+    color: #640101;
+}
+button{
+    text-decoration: none;
+    padding: 8px;
+    margin:5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #002e4d;
+    border-radius: 4px;
+    border: 1px double #2f2d30;
+}
+button:hover{
+    color: #02726c;
+    width: 7rem; height: 3rem;
+}
+#elfa{
+    background: linear-gradient(#64748B, #CBD5E1);;
+    border-radius: 6px;
+    border: 2px double #2f2d30;
+}
+#mujer{
+    background: linear-gradient(#64748B, #CBD5E1);;
+    border-radius: 6px;
+    border: 2px double #2f2d30;
+}
+#darkLady{
+    background: linear-gradient(#64748B, #CBD5E1);;
+    border-radius: 6px;
+    border: 2px double #2f2d30;
+}
+#enana{
+    background: linear-gradient(#64748B, #CBD5E1);;
+    border-radius: 6px;
+    border: 2px double #2f2d30;
+}
+#caja{
+    font-size: 1.3rem;
+    background: linear-gradient(#525E54, #4A5459);;
+    border-radius: 6px;
+    border: 2px double #2f2d30;
+}
+#cajaDos{
+    font-size: 1.3rem;
+    background: linear-gradient(#525E54, #4A5459);;
+    border-radius: 6px;
+    border: 2px double #78909C;
+}
+#otroMensaje{
+    text-align: center;
+}
+div{
+    font-size: 1rem;
+}
