@@ -4,9 +4,9 @@ console.log(cipher);
 
 const btnCifrar = document.getElementById('botonCifrar');
 btnCifrar.addEventListener('click', () => {
-  const txtUno = document.getElementById('caja').value;
-  const offset = document.getElementById('offset').value;
-  const mensajeCifrado = cipher.encode(txtUno, offset);
+  let txtUno = document.getElementById('caja').value;
+  let offset = document.getElementById('offset').value;
+  let mensajeCifrado = cipher.encode(offset, txtUno);
   document.getElementById('cajaDos').value = mensajeCifrado;
   document.getElementById('volverInicio').style.display="block";
   document.getElementById('otroMensaje').style.display = 'block';
@@ -15,9 +15,9 @@ btnCifrar.addEventListener('click', () => {
 
 const btnDescifrar = document.getElementById('botonDescifrar');
 btnDescifrar.addEventListener('click', () => {
-  const txtUno = document.getElementById('caja').value;
-  const offset = document.getElementById('offset').value;
-  const mensajeCifrado = cipher.decode(txtUno, offset);
+  let txtUno = document.getElementById('caja').value;
+  let offset = document.getElementById('offset').value;
+  let mensajeCifrado = cipher.decode(offset, txtUno);
   document.getElementById('cajaDos').value = mensajeCifrado;
  
 });
